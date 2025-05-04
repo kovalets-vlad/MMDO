@@ -59,3 +59,4 @@ cost_matrix = [[INF, 11, 21, 6, 8],
 best_path, best_cost = branch_and_bound(cost_matrix)
 print("Optimal route:", best_path)
 print("Optimal cost:", best_cost)
+
